@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AnimatedBottomTab.iml" filepath="$PROJECT_DIR$/AnimatedBottomTab.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialBottomTab.iml" filepath="$PROJECT_DIR$/MaterialBottomTab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RealmDemo.iml" filepath="$PROJECT_DIR$/RealmDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
