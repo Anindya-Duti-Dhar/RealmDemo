@@ -53,18 +53,8 @@
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
         android:layout_marginBottom="56dp" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="64dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginLeft="16dp"
-        android:src="@drawable/ic_action_add" />
 
     <eu.long1.spacetablayout.SpaceTabLayout
         android:id="@+id/spaceTabLayout"

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Realm Demo</string>
 
-    <string name="chats_toolbar">FnF Feeds</string>
+    <string name="chats_toolbar">FnF Books</string>
     <string name="contacts_toolbar">FnF Contacts</string>
     <string name="profile_toolbar">FnF Profile</string>
 

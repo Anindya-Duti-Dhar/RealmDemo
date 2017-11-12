@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
     SpaceTabLayout tabLayout;
     String TAG = getClass().getName();
     ViewPager mViewPager;
-    FloatingActionButton fab;
 
     private DrawerLayout drawerLayout;
     TextView mNavHeaderTitle;
@@ -66,14 +65,6 @@ public class MainActivity extends AppCompatActivity {
         fragmentList.add(new FragmentC());
 
         final CoordinatorLayout ParentLayout = (CoordinatorLayout) findViewById(R.id.activity_main);
-
-        fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), getString(R.string.click_action), Toast.LENGTH_SHORT).show();
-            }
-        });
 
         mViewPager = (ViewPager) findViewById(R.id.viewPager);
         tabLayout = (SpaceTabLayout) findViewById(R.id.spaceTabLayout);
